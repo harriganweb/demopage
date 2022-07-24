@@ -1,4 +1,43 @@
 * {
-    margin:0px;
-    padding:0px;
+    margin:0%;
+    padding:0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{    
+    background-color: rgba(250, 235, 215, 0.7);
+}
+
+.heading  {
+    display: inline-block;
+    align-items: center;
+    width:95%;
+    position:relative;
+    right:-5%;
+    height: 2.5em;
+    font-size: 3em;
+    background-color:rgba(47, 79, 79, 0.5);
+    color:lemonchiffon;
+    border-radius:5px;
+    
+}
+
+ul.menu a{
+    list-style-type:armenian;
+    font-size: 1.5em;
+    text-decoration:none;
+    color:darkslategrey;
+}
+/*
+ul.menu a:hover {
+    border: 2px solid red;
+    border-radius:5px;
+}
+*/
+ul.menu a:hover {
+    border: 2px solid gold;
+    border-radius:5px;
+}
+ul.menu a:active{
+    border: 2px solid lime;
+    border-radius:5px;
 }
