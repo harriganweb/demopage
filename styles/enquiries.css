@@ -1,24 +1,10 @@
-.backcard img{
+.web img{
 	position:absolute;
-	left:14%;
+	left:20%;
 	top:20%;
 	height:70%;
 	border-radius:4px;
 }
-
-@keyframes grow{
-	100%{
-		left:9%;
-		height:76%;
-	}
-}
-
-.backcard img:hover{
-	animation-name:grow;
-	animation-duration:1s;
-	animation-fill-mode:forwards;
-	border: 3px solid gold;
-}	
 
 .maintxt *{
 	position:absolute;
@@ -88,17 +74,8 @@ a{
 	color: rgb(77, 77, 77);
 	transform: rotateY(155555deg);
 }
-@media screen and (max-width:781px) {
-	.backcard *{
-		display:none;
-	}
-	.maintxt *{
-		height:400px;
-	}
-	.textpreviews, .nexttxt, .prevtxt{
-		height:100px;
-	}
-	.lowtxt p, p{
-		color:cornsilk;
+@media screen and (max-width:780px) {
+	.web img{
+	display:none;
 	}
 }
