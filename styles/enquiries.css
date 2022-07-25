@@ -1,19 +1,19 @@
 .web img{
 	position:absolute;
-	left:20%;
-	top:20%;
+	left:30%;
+	top:27.5%;
 	height:70%;
 	border-radius:4px;
 }
 
-.maintxt *{
+.card{
 	position:absolute;
 	border:2px solid rgba(112, 128, 144, 0.525);
 	border-radius:2px;
-	height:40%;
-	top:20%;
-	left:74%;
-	width:25%;
+	height:10%;
+	top:16%;
+	left:30%;
+	width:22.5%;
 	overflow-y:clip;
 }
 .maintxt *:hover{
@@ -65,15 +65,7 @@ a{
 	color:black;
 }
 
-.lowtxt, .lowtxt p {
-	display: inline-block;
-	position:fixed;
-	bottom:0%;
-	left:5%;
-	right: 0%;
-	color: rgb(77, 77, 77);
-	transform: rotateY(155555deg);
-}
+
 @media screen and (max-width:780px) {
 	.web img{
 	display:none;

@@ -58,15 +58,6 @@ a{
 	color:black;
 }
 
-.lowtxt, .lowtxt p {
-	display: inline-block;
-	position:fixed;
-	bottom:0%;
-	left:5%;
-	right: 0%;
-	color: rgb(77, 77, 77);
-	transform: rotateY(155555deg);
-}
 @media screen and (max-width:781px) {
 	.backcard *{
 		display:none;
