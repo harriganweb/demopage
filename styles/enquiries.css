@@ -1,6 +1,6 @@
 .web img{
 	position:absolute;
-	left:30%;
+	left:35%;
 	top:27.5%;
 	height:70%;
 	border-radius:4px;
@@ -12,9 +12,12 @@
 	border-radius:2px;
 	height:10%;
 	top:16%;
-	left:30%;
+	left:35%;
 	width:22.5%;
 	overflow-y:clip;
+}
+.card * {
+	text-align:center;
 }
 .maintxt *:hover{
 	overflow-y:scroll;
